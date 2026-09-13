@@ -1,7 +1,5 @@
 {
-  "functions": {
-    "**/*": {
-      "runtime": "edge"
-    }
-  }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
